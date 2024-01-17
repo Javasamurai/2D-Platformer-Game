@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,9 +13,18 @@ public class PlayerController : MonoBehaviour
     // [SerializeField] private BoxCollider2D boxCollider2D;
 
     private bool isCrouching = false;
+    private bool isGrounded => Math.Abs(rigidbody2D.velocity.y) < 0.001f;
+    private bool midAir = false;
+    [SerializeField] private float maxJumpHeight = 2f;
+    private float currentPlatformHeight = 0f;
     // private float crouchOffset = 0.5f;
     // private float crouchSize = 0.5f;
-    
+
+    private void Start()
+    {
+        currentPlatformHeight = transform.position.y;
+    }
+
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -49,18 +59,25 @@ public class PlayerController : MonoBehaviour
             //     boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y + crouchOffset);
             // }
         }
-        bool isGrounded = Mathf.Abs(rigidbody2D.velocity.y) < 0.001f;
         animator.SetBool("Jump", !isGrounded);
-        // animator.SetBool("isGrounded", Mathf.Abs(rigidbody2D.velocity.y) < 0.001f);
+        animator.SetBool("isGrounded", isGrounded);
     }
     
     private void PlayerMovement(float horizontal, float vertical)
     {
         float horizontalMovement = horizontal * this.speed * Time.deltaTime;
         transform.position += new Vector3(horizontalMovement, 0, 0);
-        if (vertical > 0 && Mathf.Abs(rigidbody2D.velocity.y) < 0.001f)
+        
+        midAir = rigidbody2D.velocity.y < 0;
+
+        if (vertical > 0 && !midAir && transform.position.y < currentPlatformHeight + maxJumpHeight)
         {
-            rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Force);
+            Jump();
         }
+    }
+    
+    private void Jump()
+    {
+        rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Force);
     }
 }
