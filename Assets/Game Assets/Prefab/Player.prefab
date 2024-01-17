@@ -180,7 +180,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &7015224702095746497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,4 +194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5820244955174857028}
-  boxCollider2D: {fileID: 1899511879573762748}
+  rigidbody2D: {fileID: 7252644103890736809}
+  jumpForce: 24
+  speed: 10

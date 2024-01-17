@@ -669,11 +669,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7015224702095746497, guid: 2d26a819bd59c42f09e953f24c366259,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7015224702095746497, guid: 2d26a819bd59c42f09e953f24c366259,
+        type: 3}
+      propertyPath: jumpForce
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7015224702095746497, guid: 2d26a819bd59c42f09e953f24c366259,
+        type: 3}
+      propertyPath: rigidbody2D
+      value: 
+      objectReference: {fileID: 2101336368777957269}
+    - target: {fileID: 7252644103890736809, guid: 2d26a819bd59c42f09e953f24c366259,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d26a819bd59c42f09e953f24c366259, type: 3}
+--- !u!50 &2101336368777957269 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 7252644103890736809, guid: 2d26a819bd59c42f09e953f24c366259,
+    type: 3}
+  m_PrefabInstance: {fileID: 2101336368777957266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
