@@ -22,16 +22,16 @@ public class PlayerController : MonoBehaviour
         {
             isCrouching = !isCrouching;
             animator.SetBool("Crouch", isCrouching);
-            if (isCrouching)
-            {
-                boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y * crouchSize);
-                boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y - crouchOffset);
-            }
-            else
-            {
-                boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y / crouchSize);
-                boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y + crouchOffset);
-            }
+            // if (isCrouching)
+            // {
+            //     boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y * crouchSize);
+            //     boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y - crouchOffset);
+            // }
+            // else
+            // {
+            //     boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y / crouchSize);
+            //     boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y + crouchOffset);
+            // }
         }
     }
 }
