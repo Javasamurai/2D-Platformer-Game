@@ -22,6 +22,10 @@ public class PlayerController : MonoBehaviour
         {
             isCrouching = !isCrouching;
             animator.SetBool("Crouch", isCrouching);
+            
+            // Both ways are working
+            // 1. Using animation and adjusting collider
+            // 2. Using code and adjusting box collider size and offset
             // if (isCrouching)
             // {
             //     boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y * crouchSize);
