@@ -10,20 +10,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce;
 
     [SerializeField] private float speed;
-    // [SerializeField] private BoxCollider2D boxCollider2D;
 
     private bool isCrouching = false;
     private bool isGrounded => Math.Abs(rigidbody2D.velocity.y) < 0.001f;
     private bool midAir = false;
     [SerializeField] private float maxJumpHeight = 2f;
     private float currentPlatformHeight = 0f;
-    // private float crouchOffset = 0.5f;
-    // private float crouchSize = 0.5f;
-
-    private void Start()
-    {
-        currentPlatformHeight = transform.position.y;
-    }
 
     void Update()
     {
@@ -32,6 +24,10 @@ public class PlayerController : MonoBehaviour
         
         PlayerMovement(horizontal, vertical);
         PlayerAnimation(horizontal, vertical);
+        if (isGrounded)
+        {
+            currentPlatformHeight = transform.position.y;
+        }
     }
     
     private void PlayerAnimation(float horizontal, float vertical)
