@@ -15,22 +15,18 @@ public class HealthController : MonoBehaviour
         UpdateHealth(hearts.Count);
     }
     
+    public float GetHealth()
+    {
+        return health;
+    }
+    
     public void TakeDamage(int damage)
     {
         health -= damage;
         UpdateHealth((int)health);
-        if (health <= 0)
-        {
-            Die();
-        }
     }
     
-    public void Die()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-    
-    public void UpdateHealth(int health)
+    private void UpdateHealth(int health)
     {
         for (int i = 0; i < hearts.Count; i++)
         {

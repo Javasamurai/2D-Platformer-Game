@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce;
     [SerializeField] private ScoreController scoreController;
     [SerializeField] private HealthController healthController;
+    [SerializeField] private GameOverController gameOverController;
     [SerializeField] private float speed;
 
     private bool isCrouching = false;
@@ -126,5 +127,12 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage()
     {
         healthController.TakeDamage(1);
+        if (healthController.GetHealth() <= 0)
+        {
+            gameOverController.ShowGameOverPanel();
+            rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            rigidbody2D.velocity = Vector2.zero;
+            animator.SetBool("isDead", true);
+        }
     }
 }
