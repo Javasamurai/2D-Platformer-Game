@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour
         {
             Debug.Log("Player hit enemy");
             var playerController = other.gameObject.GetComponent<PlayerController>();
-            playerController.Die();
+            playerController.TakeDamage();
         }
     }
     

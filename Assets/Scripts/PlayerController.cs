@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rigidbody2D;
     [SerializeField] private float jumpForce;
     [SerializeField] private ScoreController scoreController;
+    [SerializeField] private HealthController healthController;
     [SerializeField] private float speed;
 
     private bool isCrouching = false;
@@ -71,7 +72,6 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerAnimation(float horizontal, float vertical)
     {
-        bool isFlipped = horizontal < 0;
         if (horizontal < 0)
         {
             Flip();
@@ -122,9 +122,9 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Force);
     }
-
-    public void Die()
+    
+    public void TakeDamage()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        healthController.TakeDamage(1);
     }
 }
