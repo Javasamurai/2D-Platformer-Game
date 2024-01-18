@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -28,8 +29,17 @@ public class PlayerController : MonoBehaviour
         {
             currentPlatformHeight = transform.position.y;
         }
+        CheckIfPlayerFell();
     }
-    
+
+    private void CheckIfPlayerFell()
+    {
+        if (transform.position.y < currentPlatformHeight - 10)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
     private void PlayerAnimation(float horizontal, float vertical)
     {
         bool isFlipped = horizontal < 0;
