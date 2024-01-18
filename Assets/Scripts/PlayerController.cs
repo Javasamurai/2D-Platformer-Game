@@ -63,11 +63,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Flip()
+    {
+        var scale = Math.Abs(transform.localScale.x);
+        transform.localScale = new Vector3(- scale, transform.localScale.y, transform.localScale.z);
+    }
+
     private void PlayerAnimation(float horizontal, float vertical)
     {
         bool isFlipped = horizontal < 0;
-        float x = (isFlipped ? -1 : 1) * Mathf.Abs(transform.localScale.x);
-        transform.localScale = new Vector3(x, transform.localScale.y, transform.localScale.z);
+        if (horizontal < 0)
+        {
+            Flip();
+        }
+        else if (horizontal > 0)
+        {
+            var scale = Math.Abs(transform.localScale.x);
+            transform.localScale = new Vector3(scale, transform.localScale.y, transform.localScale.z);
+        }
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
         if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)) && speed == 0)
         {
