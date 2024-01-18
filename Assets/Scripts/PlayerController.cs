@@ -9,11 +9,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rigidbody2D;
     [SerializeField] private float jumpForce;
-
+    [SerializeField] private ScoreController scoreController;
     [SerializeField] private float speed;
 
     private bool isCrouching = false;
-    private bool isGrounded => Math.Abs(rigidbody2D.velocity.y) < 0.001f;
+    private bool isGrounded = false;
+    // private bool isGrounded => Math.Abs(rigidbody2D.velocity.y) < 0.001f;
     private bool midAir = false;
     [SerializeField] private float maxJumpHeight = 2f;
     private float currentPlatformHeight = 0f;
@@ -30,6 +31,28 @@ public class PlayerController : MonoBehaviour
             currentPlatformHeight = transform.position.y;
         }
         CheckIfPlayerFell();
+    }
+
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            isGrounded = false;
+        }
+    }
+
+    public void PickUpKey()
+    {
+        Debug.Log("Picked up key");
+        scoreController.AddScore(10);
     }
 
     private void CheckIfPlayerFell()
