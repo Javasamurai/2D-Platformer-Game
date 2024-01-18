@@ -109,4 +109,9 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Force);
     }
+
+    public void Die()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
