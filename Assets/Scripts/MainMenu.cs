@@ -7,10 +7,15 @@ public class MainMenu : MonoBehaviour
     private Button startButton;
     [SerializeField]
     private Button quitButton;
+    [SerializeField]
+    private Button closeLevelSelectorButton;
+    [SerializeField]
+    private GameObject levelSelector;
 
     void Start()
     {
         startButton.onClick.AddListener(StartGame);
+        closeLevelSelectorButton.onClick.AddListener(() => levelSelector.SetActive(false));
         quitButton.onClick.AddListener(QuitGame);
     }
 
@@ -21,6 +26,6 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        levelSelector.SetActive(true);
     }
 }
