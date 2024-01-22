@@ -153,7 +153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5739155011791152470
 RectTransform:
   m_ObjectHideFlags: 0
@@ -228,6 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 3869229548756008630}
   restartButton: {fileID: 9103638121462393919}
+  menuButton: {fileID: 8423806484672142499}
 --- !u!1 &4337750483543232297
 GameObject:
   m_ObjectHideFlags: 0

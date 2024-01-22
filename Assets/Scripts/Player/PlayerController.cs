@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,13 +11,29 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private HealthController healthController;
     [SerializeField] private GameOverController gameOverController;
     [SerializeField] private float speed;
+    
+    public struct PlayerState
+    {
+        public Transform transform;
+        public bool isCrouching;
+        public bool isGrounded;
+        public bool midAir;
+    }
+    
+    private PlayerState playerState;
+    private AnimationController animationController;
 
-    private bool isCrouching = false;
-    private bool isGrounded = false;
-    // private bool isGrounded => Math.Abs(rigidbody2D.velocity.y) < 0.001f;
-    private bool midAir = false;
     [SerializeField] private float maxJumpHeight = 2f;
     private float currentPlatformHeight = 0f;
+    
+    private void Start()
+    {
+        playerState = new PlayerState
+        {
+            transform = transform
+        };
+        animationController = new AnimationController(animator, this);
+    }
 
     void Update()
     {
@@ -27,19 +41,27 @@ public class PlayerController : MonoBehaviour
         float vertical = Input.GetAxisRaw("Jump");
         
         PlayerMovement(horizontal, vertical);
-        PlayerAnimation(horizontal, vertical);
-        if (isGrounded)
+        if (playerState.isGrounded)
         {
             currentPlatformHeight = transform.position.y;
         }
         CheckIfPlayerFell();
+        animationController.Update(playerState, horizontal, vertical);
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            playerState.isCrouching = true;
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            playerState.isCrouching = false;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Platform"))
         {
-            isGrounded = true;
+            playerState.isGrounded = true;
         }
     }
 
@@ -47,13 +69,12 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Platform"))
         {
-            isGrounded = false;
+            playerState.isGrounded = false;
         }
     }
 
     public void PickUpKey()
     {
-        Debug.Log("Picked up key");
         scoreController.AddScore(10);
     }
 
@@ -64,63 +85,26 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-
-    private void Flip()
-    {
-        var scale = Math.Abs(transform.localScale.x);
-        transform.localScale = new Vector3(- scale, transform.localScale.y, transform.localScale.z);
-    }
-
-    private void PlayerAnimation(float horizontal, float vertical)
-    {
-        if (horizontal < 0)
-        {
-            Flip();
-        }
-        else if (horizontal > 0)
-        {
-            var scale = Math.Abs(transform.localScale.x);
-            transform.localScale = new Vector3(scale, transform.localScale.y, transform.localScale.z);
-        }
-        animator.SetFloat("Speed", Mathf.Abs(horizontal));
-        if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)) && speed == 0)
-        {
-            isCrouching = !isCrouching;
-            animator.SetBool("Crouch", isCrouching);
-            
-            // Both ways are working
-            // 1. Using animation and adjusting collider
-            // 2. Using code and adjusting box collider size and offset
-            // if (isCrouching)
-            // {
-            //     boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y * crouchSize);
-            //     boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y - crouchOffset);
-            // }
-            // else
-            // {
-            //     boxCollider2D.size = new Vector2(boxCollider2D.size.x, boxCollider2D.size.y / crouchSize);
-            //     boxCollider2D.offset = new Vector2(boxCollider2D.offset.x, boxCollider2D.offset.y + crouchOffset);
-            // }
-        }
-        animator.SetBool("Jump", !isGrounded);
-        animator.SetBool("isGrounded", isGrounded);
-    }
     
     private void PlayerMovement(float horizontal, float vertical)
     {
         float horizontalMovement = horizontal * this.speed * Time.deltaTime;
         transform.position += new Vector3(horizontalMovement, 0, 0);
-        
-        midAir = rigidbody2D.velocity.y < 0;
+        playerState.midAir = rigidbody2D.velocity.y < 0;;
 
-        if (vertical > 0 && !midAir && transform.position.y < currentPlatformHeight + maxJumpHeight)
+        if (vertical > 0 && !playerState.midAir && transform.position.y < currentPlatformHeight + maxJumpHeight)
         {
             Jump();
+        }
+        if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)))
+        {
+            playerState.isCrouching = !playerState.isCrouching;
         }
     }
     
     private void Jump()
     {
+        playerState.isCrouching = false;
         rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Force);
     }
     
