@@ -60,6 +60,17 @@ public class LevelManager : MonoBehaviour
             SetLevelState(nextLevel, LevelState.UNLOCKED);
         }
     }
+    
+    public void LoadNextLevel()
+    {
+        var currentLevel = SceneManager.GetActiveScene().name;
+        string nextLevel = GetNextLevel(currentLevel);
+
+        if (nextLevel != null)
+        {
+            LoadLevel(nextLevel);
+        }
+    }
 
     private string GetNextLevel(string currentLevel)
     {
