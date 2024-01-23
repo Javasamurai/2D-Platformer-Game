@@ -7,7 +7,7 @@ public class LevelEndController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Scenes/Level2");
+            LevelManager.Instance.SetCurrentLevelCompleted();
         }
     }
 }

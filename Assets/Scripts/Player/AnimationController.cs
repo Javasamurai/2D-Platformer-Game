@@ -11,7 +11,7 @@ public class AnimationController
         this.animator = _animator;
         this.playerController = _playerController;
     }
-    
+
     public void Update(PlayerController.PlayerState playerState, float horizontal, float vertical)
     {
         PlayerAnimation(playerState, horizontal, vertical);

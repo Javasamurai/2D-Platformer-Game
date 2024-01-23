@@ -5,26 +5,29 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private Rigidbody2D rigidbody2D;
+    [SerializeField] public Rigidbody2D rigidbody2D;
     [SerializeField] private float jumpForce;
+    [SerializeField] private LayerMask _groundLayer;
+
     [SerializeField] private ScoreController scoreController;
     [SerializeField] private HealthController healthController;
     [SerializeField] private GameOverController gameOverController;
     [SerializeField] private float speed;
     
+    [Serializable]
     public struct PlayerState
     {
         public Transform transform;
         public bool isCrouching;
         public bool isGrounded;
         public bool midAir;
+        public bool isJumping;
     }
     
-    private PlayerState playerState;
+    
+    public PlayerState playerState;
     private AnimationController animationController;
-
-    [SerializeField] private float maxJumpHeight = 2f;
-    private float currentPlatformHeight = 0f;
+    private PlayerPhysicsController playerPhysicsController;
     
     private void Start()
     {
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
             transform = transform
         };
         animationController = new AnimationController(animator, this);
+        playerPhysicsController = new PlayerPhysicsController(this);
     }
 
     void Update()
@@ -41,12 +45,10 @@ public class PlayerController : MonoBehaviour
         float vertical = Input.GetAxisRaw("Jump");
         
         PlayerMovement(horizontal, vertical);
-        if (playerState.isGrounded)
-        {
-            currentPlatformHeight = transform.position.y;
-        }
-        CheckIfPlayerFell();
+
         animationController.Update(playerState, horizontal, vertical);
+        playerPhysicsController.Update();
+
         if (Input.GetKeyDown(KeyCode.S))
         {
             playerState.isCrouching = true;
@@ -55,6 +57,27 @@ public class PlayerController : MonoBehaviour
         {
             playerState.isCrouching = false;
         }
+
+        if (!playerState.isGrounded && horizontal != 0)
+        {
+            playerPhysicsController.AirControl(horizontal);
+        }
+        
+        if (transform.position.y < -10)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        CheckIfGrounded();
+    }
+
+    private void CheckIfGrounded()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.down), 10, _groundLayer);
+        playerState.isGrounded = hit.collider != null && hit.distance <= 0;
     }
 
     private void OnCollisionStay2D(Collision2D other)
@@ -77,25 +100,18 @@ public class PlayerController : MonoBehaviour
     {
         scoreController.AddScore(10);
     }
-
-    private void CheckIfPlayerFell()
-    {
-        if (transform.position.y < currentPlatformHeight - 10)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
     
     private void PlayerMovement(float horizontal, float vertical)
     {
         float horizontalMovement = horizontal * this.speed * Time.deltaTime;
         transform.position += new Vector3(horizontalMovement, 0, 0);
-        playerState.midAir = rigidbody2D.velocity.y < 0;;
+        playerState.midAir = rigidbody2D.velocity.y < 0;
 
-        if (vertical > 0 && !playerState.midAir && transform.position.y < currentPlatformHeight + maxJumpHeight)
+        if (vertical > 0 && playerState.isGrounded)
         {
             Jump();
         }
+
         if ((Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)))
         {
             playerState.isCrouching = !playerState.isCrouching;
@@ -105,7 +121,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         playerState.isCrouching = false;
-        rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Force);
+        rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
     }
     
     public void TakeDamage()

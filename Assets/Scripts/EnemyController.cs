@@ -34,13 +34,14 @@ public class EnemyController : MonoBehaviour
     private void Flip()
     {
         direction = -direction;
-        transform.Rotate(0f, 180f, 0f);
+        transform.Rotate(0f, 180f * direction.x, 0f);
     }
     
     private void Patrol()
     {
         var distance = Vector3.Distance(transform.position, initialPosition);
-        if (distance > patrolDistance)
+
+        if (distance >= patrolDistance)
         {
             Flip();
         }
