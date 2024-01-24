@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,5 +29,11 @@ public class GameOverController : MonoBehaviour
     private void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private void OnDestroy()
+    {
+        restartButton.onClick.RemoveListener(RestartGame);
+        menuButton.onClick.RemoveListener(GoToMainMenu);
     }
 }

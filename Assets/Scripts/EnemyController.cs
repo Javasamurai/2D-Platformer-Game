@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float patrolSpeed = 3f;
     [SerializeField] private float patrolDistance = 3f;
 
+    private bool returning = false;
     private Vector3 initialPosition;
     private Vector3 direction = Vector3.right;
     private void Start()
@@ -41,9 +42,14 @@ public class EnemyController : MonoBehaviour
     {
         var distance = Vector3.Distance(transform.position, initialPosition);
 
-        if (distance >= patrolDistance)
+        if (distance >= patrolDistance && !returning)
         {
+            returning = true;
             Flip();
+        }
+        else if (distance <= 0.1f && returning)
+        {
+            returning = false;
         }
         transform.position += direction * (patrolSpeed * Time.deltaTime);
     }

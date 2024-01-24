@@ -54,6 +54,7 @@ public enum SoundType
     KEY_PICKUP,
     ENEMY_ATTACK
 }
+
 [Serializable]
 class Sound
 {

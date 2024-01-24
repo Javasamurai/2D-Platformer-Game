@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         
         if (transform.position.y < -10)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            gameOverController.ShowGameOverPanel();
         }
     }
 
@@ -136,7 +136,6 @@ public class PlayerController : MonoBehaviour
         if (healthController.GetHealth() <= 0)
         {
             Freeze();
-            gameObject.SetActive(false);
             animator.SetBool(IsDead, true);
             gameOverController.ShowGameOverPanel();
         }
@@ -144,6 +143,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger(Hit);
         }
+        rigidbody2D.AddForce(new Vector2(playerState.isFlipped ? 5 : -5, 0), ForceMode2D.Impulse);
     }
     
     public void Freeze()
