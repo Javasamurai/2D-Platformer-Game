@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,8 +16,14 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         startButton.onClick.AddListener(StartGame);
-        closeLevelSelectorButton.onClick.AddListener(() => levelSelector.SetActive(false));
+        closeLevelSelectorButton.onClick.AddListener(ShowLevelSelector);
         quitButton.onClick.AddListener(QuitGame);
+    }
+    
+    private void ShowLevelSelector()
+    {
+        AudioManager.Instance.PlaySFX(SoundType.BUTTON_CLICK);
+        levelSelector.SetActive(false);
     }
 
     private void QuitGame()
@@ -26,6 +33,14 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
+        AudioManager.Instance.PlaySFX(SoundType.BUTTON_CLICK);
         levelSelector.SetActive(true);
+    }
+
+    private void OnDestroy()
+    {
+        startButton.onClick.RemoveListener(StartGame);
+        quitButton.onClick.RemoveListener(QuitGame);
+        closeLevelSelectorButton.onClick.RemoveListener(ShowLevelSelector);
     }
 }

@@ -11,6 +11,7 @@ public class KeyController : MonoBehaviour
         {
             var playerController = other.gameObject.GetComponent<PlayerController>();
             playerController.PickUpKey();
+            AudioManager.Instance.PlaySFX(SoundType.KEY_PICKUP);
             Destroy(gameObject);
         }
     }

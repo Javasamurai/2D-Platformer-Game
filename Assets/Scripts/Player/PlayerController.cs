@@ -28,7 +28,8 @@ public class PlayerController : MonoBehaviour
     public PlayerState playerState;
     private AnimationController animationController;
     private PlayerPhysicsController playerPhysicsController;
-    
+    private static readonly int IsDead = Animator.StringToHash("isDead");
+
     private void Start()
     {
         playerState = new PlayerState
@@ -76,8 +77,18 @@ public class PlayerController : MonoBehaviour
 
     private void CheckIfGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.down), 10, _groundLayer);
-        playerState.isGrounded = hit.collider != null && hit.distance <= 0;
+        // RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.down), 10, _groundLayer);
+        // Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * 10, Color.red);
+        // Debug.Log(hit.distance);
+        // playerState.isGrounded = hit.collider != null && hit.distance <= 0;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Platform"))
+        {
+            AudioManager.Instance.PlaySFX(SoundType.PLAYER_LAND);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D other)
@@ -122,6 +133,7 @@ public class PlayerController : MonoBehaviour
     {
         playerState.isCrouching = false;
         rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        AudioManager.Instance.PlaySFX(SoundType.PLAYER_JUMP);
     }
     
     public void TakeDamage()
@@ -129,10 +141,16 @@ public class PlayerController : MonoBehaviour
         healthController.TakeDamage(1);
         if (healthController.GetHealth() <= 0)
         {
-            gameOverController.ShowGameOverPanel();
             rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
             rigidbody2D.velocity = Vector2.zero;
-            animator.SetBool("isDead", true);
+            transform.GetChild(0).SetParent(transform.parent);
+            gameObject.SetActive(false);
+            animator.SetBool(IsDead, true);
+            gameOverController.ShowGameOverPanel();
+        }
+        else
+        {
+            animator.SetTrigger("hit");
         }
     }
 }
