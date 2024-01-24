@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     private AnimationController animationController;
     private PlayerPhysicsController playerPhysicsController;
     private static readonly int IsDead = Animator.StringToHash("isDead");
+    private static readonly int Hit = Animator.StringToHash("hit");
 
     private void Start()
     {
@@ -68,19 +69,6 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-    }
-
-    private void FixedUpdate()
-    {
-        CheckIfGrounded();
-    }
-
-    private void CheckIfGrounded()
-    {
-        // RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.down), 10, _groundLayer);
-        // Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.down) * 10, Color.red);
-        // Debug.Log(hit.distance);
-        // playerState.isGrounded = hit.collider != null && hit.distance <= 0;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -154,7 +142,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            animator.SetTrigger("hit");
+            animator.SetTrigger(Hit);
         }
     }
     

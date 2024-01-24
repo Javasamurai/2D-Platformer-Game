@@ -15,7 +15,7 @@ public class ScoreController : MonoBehaviour
 
     private void UpdateUI()
     {
-        scoreText.text = string.Format("Score: {0}", score);
+        scoreText.text = score.ToString();
     }
 
     public void AddScore(int scoreToAdd)

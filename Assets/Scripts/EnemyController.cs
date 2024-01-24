@@ -25,8 +25,8 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") && other.gameObject.GetComponent<PlayerController>() != null)
         {
-            Debug.Log("Player hit enemy");
             var playerController = other.gameObject.GetComponent<PlayerController>();
+            AudioManager.Instance.PlaySFX(SoundType.ENEMY_ATTACK);
             playerController.TakeDamage();
         }
     }

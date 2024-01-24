@@ -33,6 +33,11 @@ public class AudioManager : MonoBehaviour
     {
         Sound sound = Array.Find(sounds, s => s.soundType == soundType);
         sfxSource.clip = sound.clip;
+        if (sound.oneShot)
+        {
+            sfxSource.PlayOneShot(sound.clip);
+            return;
+        }
         sfxSource.Play();
     }
 }
@@ -47,10 +52,12 @@ public enum SoundType
     PLAYER_LAND,
     PLAYER_WALK,
     KEY_PICKUP,
+    ENEMY_ATTACK
 }
 [Serializable]
 class Sound
 {
     public SoundType soundType;
     public AudioClip clip;
+    public bool oneShot;
 }
