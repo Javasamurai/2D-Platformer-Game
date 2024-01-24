@@ -5,19 +5,16 @@ public class PlayerPhysicsController
 {
     private LayerMask groundLayer = LayerMask.GetMask("Ground");
     private PlayerController playerController;
+    private float glideForce = 100f;
     
     public PlayerPhysicsController(PlayerController _playerController)
     {
         this.playerController = _playerController;
     }
 
-    public void Update()
+    public void Glide()
     {
-        
-    }
-
-    public void AirControl(float horizontal)
-    {
-        playerController.rigidbody2D.AddForce(new Vector2(horizontal * 10, 0));
+        var forceDirection = playerController.playerState.isFlipped ? -1 : 1;
+        playerController.rigidbody2D.AddForce(new Vector2(forceDirection * glideForce, 0), ForceMode2D.Impulse);
     }
 }

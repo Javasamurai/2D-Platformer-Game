@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ScoreController scoreController;
     [SerializeField] private HealthController healthController;
     [SerializeField] private GameOverController gameOverController;
+    [SerializeField] private FootSteps footSteps;
     [SerializeField] private float speed;
     
     [Serializable]
@@ -22,8 +23,8 @@ public class PlayerController : MonoBehaviour
         public bool isGrounded;
         public bool midAir;
         public bool isJumping;
+        public bool isFlipped;
     }
-    
     
     public PlayerState playerState;
     private AnimationController animationController;
@@ -48,7 +49,6 @@ public class PlayerController : MonoBehaviour
         PlayerMovement(horizontal, vertical);
 
         animationController.Update(playerState, horizontal, vertical);
-        playerPhysicsController.Update();
 
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -59,9 +59,9 @@ public class PlayerController : MonoBehaviour
             playerState.isCrouching = false;
         }
 
-        if (!playerState.isGrounded && horizontal != 0)
+        if (Input.GetKeyDown(KeyCode.E) && !playerState.isGrounded)
         {
-            playerPhysicsController.AirControl(horizontal);
+            playerPhysicsController.Glide();
         }
         
         if (transform.position.y < -10)
@@ -117,8 +117,13 @@ public class PlayerController : MonoBehaviour
         float horizontalMovement = horizontal * this.speed * Time.deltaTime;
         transform.position += new Vector3(horizontalMovement, 0, 0);
         playerState.midAir = rigidbody2D.velocity.y < 0;
+        
+        if (playerState.isGrounded && horizontal >= 0.2f)
+        {
+            footSteps.PlayFootStep();
+        }
 
-        if (vertical > 0 && playerState.isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && playerState.isGrounded)
         {
             Jump();
         }
@@ -139,11 +144,10 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage()
     {
         healthController.TakeDamage(1);
+        AudioManager.Instance.PlaySFX(SoundType.PLAYER_HIT);
         if (healthController.GetHealth() <= 0)
         {
-            rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
-            rigidbody2D.velocity = Vector2.zero;
-            transform.GetChild(0).SetParent(transform.parent);
+            Freeze();
             gameObject.SetActive(false);
             animator.SetBool(IsDead, true);
             gameOverController.ShowGameOverPanel();
@@ -152,5 +156,13 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger("hit");
         }
+    }
+    
+    public void Freeze()
+    {
+        rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+        rigidbody2D.velocity = Vector2.zero;
+        transform.GetChild(0).SetParent(transform.parent);
+        gameObject.SetActive(false);
     }
 }

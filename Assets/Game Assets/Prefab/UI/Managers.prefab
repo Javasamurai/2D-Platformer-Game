@@ -120,6 +120,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1600257587010314567, guid: 50ec867dabeef42ab87a39d73f62103a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0651b56880a11ef45909b779443691aa, type: 3}
     - target: {fileID: 4693555803694705590, guid: 50ec867dabeef42ab87a39d73f62103a,
         type: 3}
       propertyPath: sounds.Array.size
@@ -127,9 +132,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693555803694705590, guid: 50ec867dabeef42ab87a39d73f62103a,
         type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b6f919b655318a469cb53dcc1712340, type: 3}
+    - target: {fileID: 4693555803694705590, guid: 50ec867dabeef42ab87a39d73f62103a,
+        type: 3}
       propertyPath: sounds.Array.data[5].clip
       value: 
       objectReference: {fileID: 8300000, guid: d76c71e98617e1c41a5cdc490eb1bee1, type: 3}
+    - target: {fileID: 4693555803694705590, guid: 50ec867dabeef42ab87a39d73f62103a,
+        type: 3}
+      propertyPath: sounds.Array.data[3].soundType
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4693555803694705590, guid: 50ec867dabeef42ab87a39d73f62103a,
         type: 3}
       propertyPath: sounds.Array.data[5].soundType

@@ -12,7 +12,6 @@ public class LevelCompleteUI : MonoBehaviour
     [SerializeField] private Button menuButton;
     void Start()
     {
-        levelCompletePanel.SetActive(false);
         nextLevelButton.onClick.AddListener(NextLevel);
         restartLevelButton.onClick.AddListener(RestartGame);
         menuButton.onClick.AddListener(GoToMainMenu);

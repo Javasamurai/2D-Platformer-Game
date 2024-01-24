@@ -21,6 +21,7 @@ public class AnimationController
     {
         var scale = Math.Abs(playerController.transform.localScale.x);
         playerController.transform.localScale = new Vector3(- scale, playerController.transform.localScale.y, playerController.transform.localScale.z);
+        playerController.playerState.isFlipped = true;
     }
     
     private void PlayerAnimation(PlayerController.PlayerState playerState, float horizontal, float vertical)
@@ -34,6 +35,7 @@ public class AnimationController
         {
             var scale = Math.Abs(transform.localScale.x);
             transform.localScale = new Vector3(scale, transform.localScale.y, transform.localScale.z);
+            playerController.playerState.isFlipped = false;
         }
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
         animator.SetBool("Crouch", playerState.isCrouching);

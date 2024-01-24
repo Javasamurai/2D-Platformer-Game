@@ -9,9 +9,8 @@ public class GameOverController : MonoBehaviour
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private Button restartButton;
     [SerializeField] private Button menuButton;
-    void Start()
+    void Awake()
     {
-        gameOverPanel.SetActive(false);
         restartButton.onClick.AddListener(RestartGame);
         menuButton.onClick.AddListener(GoToMainMenu);
     }
