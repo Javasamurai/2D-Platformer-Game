@@ -1,0 +1,3409 @@
+fileFormatVersion: 2
+guid: bce291c30336240c6afb1bbd26c23c7f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hollow_knight_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 948
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7932a167c38f645c480c38cb23b55775
+      internalID: 1199561681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 950
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f79dbe3ba0f64ffe8b6f4dc42d6754b
+      internalID: 859058489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 948
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88d8cf6658f403dbfa1f1ec5cb3ab0
+      internalID: 574054721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 950
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e9e24c520e54c2faf149b69162310f
+      internalID: 241063069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 948
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dc7d7093154467a82b01b6c05117bd
+      internalID: 1030372896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 950
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef859d576c834ecebab0e4201835020
+      internalID: -195669251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 948
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb3cba98e9c34459aa716f94c621bb3
+      internalID: -2018045493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 950
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b350cfccb6234bd1b0f93d2fda2cc1a
+      internalID: 2098543062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 946
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aabef82db8234d1fa122bf188e457dc
+      internalID: 625746931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 945
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca89efc3c8c824e178ad6f044316034d
+      internalID: 1771253823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 950
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fabdc0e083d41a7b1112af5e84de90
+      internalID: 241213611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 950
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dfe1457d0794e36afad68b83ac7e88
+      internalID: 850800157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_12
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 948
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55828a159de914a39a8e9c8a2eb22c4a
+      internalID: 1745008559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 948
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84586923589414048a79f345ea0848c7
+      internalID: 1273524163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_14
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 948
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beedd4dec9af84f1a8c688d1db23ca42
+      internalID: 1981374084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 866
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1d9908209e441ad8c6d67063b40ca2
+      internalID: -996432673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 870
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617f8fbbbe6f04b83b63fccdaa4edcbe
+      internalID: 1472874224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 868
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f049183f37a83454b976bbbe7944dc62
+      internalID: 1856661752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_18
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 928
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b25ce053ee44229ba2a23d26af4918
+      internalID: 447690218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 869
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0783592c2464e6498a971992cab6be
+      internalID: -356773398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 869
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208119ae9c6f145a89dbaaa4d6ae139e
+      internalID: 2076594702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_21
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 868
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be6ddabeba384f0c91c8ee5e856caaa
+      internalID: 37416881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_22
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 864
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f415d49a9ba8400091897b3d16c76c1
+      internalID: -1316272489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_23
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 866
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fea8079578de4472a3ef805934a3d68
+      internalID: 1681020621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_24
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 868
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1375c2a6dc6e3467aa11feb4d3242bb1
+      internalID: -1464376529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_25
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 866
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7774c929b327c4178bda18293448211b
+      internalID: -498287637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_26
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 864
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6518d5b05fe864d309b602d9a0c1eda2
+      internalID: -80432583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 868
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21092a8b8a17b4941a19c4b3352f21cb
+      internalID: -1445599124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 792
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b93d74b456455997cd8f065823799
+      internalID: -1090382919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 836
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071df0b1777d84271a474d536873d14f
+      internalID: -625579660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 785
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c40ae1b5fb34d91a8dd38153e246fd
+      internalID: -260764577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 802
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6095c09dc983e4bc2ac090fc9fc6ad0c
+      internalID: -801037423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_32
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 800
+        width: 73
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33477278062ff413881cf9334371c44a
+      internalID: 963309459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 797
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0a518892b894f989cb774e7147a055
+      internalID: 1139400388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_34
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 797
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba1fe5e8171645478742f58b98782cc
+      internalID: -2020003762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_35
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 792
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db2ddc22b914fdab35b7661e10aa77
+      internalID: -568281990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_36
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 791
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97fe43c3eb76480d98a88603a94e10c
+      internalID: 628726816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_37
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 791
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bbd693ab61c4b9c8c67ba59160ea0e
+      internalID: 1082079566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_38
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 791
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc9be5a757334dbb955ac0a587cad53
+      internalID: -192397846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_39
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 791
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf40bc96d4d64829bb67cc636ab259e
+      internalID: 1244795138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_40
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 709
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894798e63a4704276a7c130024d5371e
+      internalID: -1645083673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 709
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c078e435fe24d4ca16fd972af65346
+      internalID: -733138250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 708
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722808d4c12be49cfb9edef9a6918061
+      internalID: 1172472158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_43
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 710
+        width: 39
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e448c9f7714409aaaab8ee22776568
+      internalID: -1380413710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_44
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 708
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61421bdacfeb4b5e92ed317b4924a1f
+      internalID: -1085180306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_45
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 709
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed48a989998b46aaab7dafaaff8eecf
+      internalID: 145030462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_46
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 708
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8822c11c8df0e4a8fb7824ea81a77a6f
+      internalID: 1243464987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_47
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 708
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526e0fa72fa6542f893d8c65ba59919f
+      internalID: -887461240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_48
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 709
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a682bdbbfb2e24bed911188adfeaa2d5
+      internalID: -528032215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_49
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 709
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bd1517a519349c29bbda5d35698da0
+      internalID: -927685495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_50
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 709
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da1997b2a7444c769c9b7aefb5ad345
+      internalID: 473089747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_51
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 709
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3c97cfa1a3949238da50dc0896f165
+      internalID: 627806346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_52
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 631
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dda669cbd4284844b92a02953176053
+      internalID: 1920725313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_53
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 628
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7cae3aa44049c69386297e4d471ef
+      internalID: 737704700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_54
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 628
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f4188d1036f4d73a3c8691599c4a02
+      internalID: -1242799039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_55
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 630
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05283d0118f347619098545623683ce
+      internalID: -1069014899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_56
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 629
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898d54295df124adbbbd47d5e354c49b
+      internalID: 629387060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_57
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 629
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8176ac803b6d540df8c28688280edbd7
+      internalID: -1134361214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_58
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 628
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138e01b0e44e04fb883ccd6caee47c32
+      internalID: -569148935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_59
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 628
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196353fb0174f42538dc702b95327118
+      internalID: 294437947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_60
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 631
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173c54ba90fb44f4590d5396d73aff33
+      internalID: -2079039616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_61
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 664
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f230923c85442b5b4e7a54257a43ed
+      internalID: 1940133663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_62
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 629
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35edea791ea348bf981f0e31496e0c3
+      internalID: -1847243972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_63
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 627
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fc8a7821ae4449a80217167bb1ca74
+      internalID: 24359814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_64
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 630
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d8855ca792e497286182e8096070b0
+      internalID: 481712669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 553
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039e14b1b5782434e8b06f09cf2bbd1b
+      internalID: 1207550673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 553
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673a0a951f434454cae371741d7e5f41
+      internalID: 434822002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_67
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 551
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c197b43cc62714852aeb31b8457e4bfe
+      internalID: 728123502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_68
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 551
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c738d15c5a34e4d3bb6e6cc287ac5794
+      internalID: -430155154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_69
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 549
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d420ad5e463b476983d09daee0f580a
+      internalID: -893671657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_70
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 549
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6eadc6c27784d9f9677e402e367aa8
+      internalID: -2127539004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 549
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfadd116f8b84b789e25ec6aa85d194
+      internalID: 796445531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_72
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 549
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93edb6fab1d6f40bda6d8162416e7f93
+      internalID: -1100222245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_73
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 550
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1fe0004f79549cba992a9d5b1e9054
+      internalID: -178702321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_74
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 550
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8713ab755efc3481b84d5ca9db40323f
+      internalID: -437179113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_75
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 550
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e789a6df334d41cb81b7c2a411939af
+      internalID: 545836692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_76
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 550
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5689b3e9fb4574f2781deb2daef7c295
+      internalID: -418837657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_77
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 616
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839c6d43f386846378e80e648fd638db
+      internalID: 194627444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_78
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 468
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0393fc6be6404398aa30b928acdbfb5
+      internalID: -1150960988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_79
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 468
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c83701b606f429598516fdb76a2c7c
+      internalID: 1234704917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_80
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 468
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3d445eb64074c76950de559a2d8cbc
+      internalID: -853374812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_81
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 540
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d2cdd928a6741299eb583c208d6d21
+      internalID: -1368636469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_82
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 468
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d852f45c2b584ceeaaeb2588858de1e
+      internalID: 1589040874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_83
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 540
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4925b61bb10a54f68b8503b5894c7551
+      internalID: 290196279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_84
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 466
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135ebd39f1cd2445590867832288bf6b
+      internalID: 1005543553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_85
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 466
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6247ca37aa4f1392e221fc349c725
+      internalID: -93037076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_86
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 536
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1b83254fb494d90ab07507e54aa7c8
+      internalID: 908727113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_87
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 469
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042cc769ae4d748398743866a796b1b7
+      internalID: 884623573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_88
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 469
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a069da01b96476b91a46685c6ff34f
+      internalID: -679184411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_89
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 465
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eebdc820ef64416861eba456282369
+      internalID: -1681139229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_90
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 469
+        width: 54
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de14ce3d9d2a4c5f86e8890983b0123
+      internalID: 459540034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_91
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 466
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097aa8b03ae594aac88263adc0d0b04f
+      internalID: 771345427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_92
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 466
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c55a62bd3fb406d977619db9ebc020
+      internalID: 1668691193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_93
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 508
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a7c1bc12ec44872b263955341f0e7d
+      internalID: 228322055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_94
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 464
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4a49183c4cd4e03a7d387984b2d761
+      internalID: -1616539775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_95
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 429
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628bc6161b1724240820ed38dbc49c44
+      internalID: -2066697334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_96
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 394
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0fd0d1c6610494895ce57ca30c2389
+      internalID: -1777080383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_97
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 394
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e867f3871535847508a9276356886f40
+      internalID: -1245505254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_98
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 393
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd65170a2da47918fd43f307dc9605
+      internalID: -1238611563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_99
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 393
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14390d1d3fbba4ffaba1796443decb11
+      internalID: 1020128984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_100
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 391
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0846c9e58c50848908ec12c321a0b7a0
+      internalID: 224284698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_101
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 425
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9a0687fbafd4196b6fb687518807bc
+      internalID: -1778870679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_102
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 391
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1717362e0753d413d85326e18766f56a
+      internalID: -81956628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_103
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 393
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e15edeb910743ce9270d9fd663472b
+      internalID: -321785184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_104
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 393
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3b0e5bae9044e0883423bbf1fdf568
+      internalID: 248068320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_105
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 391
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec47ab4911f1b4fee947692d25547ad5
+      internalID: 662325555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_106
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 425
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522931fd4520547eda0327d0684f710e
+      internalID: -537198486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_107
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 391
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d612b9aad4724e5a840823295828da3
+      internalID: 487478981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_108
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 309
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0337d7b54a34961b49fc4db5ea4fef
+      internalID: 2064829562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 328
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4ca8b5fd3fe45cf91a2014c3fde29b
+      internalID: 1763822368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_110
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 310
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1326223620c0246eba9947048ceac443
+      internalID: -150602448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_111
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 305
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8521f2a88e3b24780917a47fa2fc0429
+      internalID: 1033154026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_112
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 310
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf731d09f3d84e0a9be34b05a9db238
+      internalID: 280972650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_113
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 309
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a6bc7bb2d1a42718f740f9453f8311
+      internalID: 1562082949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_114
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 307
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8882dace0911d4499bfa02edd15a82c6
+      internalID: 1146897072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_115
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 308
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eae82bb6d1b4cfe8980af3247bb33a
+      internalID: -1722244126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_116
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 315
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f430280a204d44e9296256346e5caa13
+      internalID: -1158198155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_117
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 308
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81511bc11ea5748c3b2444bfc7ec6a52
+      internalID: -1238251582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_118
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 228
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844f8a926d15640a3872a15504245933
+      internalID: -150481055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_119
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 224
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4037011df6b4ef7aded28b9e9d4d4e
+      internalID: 1803396169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_120
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 231
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693f98b41be4e42f08e7e97f02fdc380
+      internalID: -1524922457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_121
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 233
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c7f52f2012d46e988d7238d7d7f154
+      internalID: 1277954276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_122
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 233
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b537b7177224143857614831408401
+      internalID: -1492076538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_123
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 229
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0319dd1e914a4714baddf79c139ca66
+      internalID: -1917756982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_124
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 228
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7587228dc0e334de98d7cb2e87f19fce
+      internalID: 182930546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_125
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 228
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783ec7a72aad44d9485d7d2b8b015fed
+      internalID: 1940143637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_126
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 232
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b751d3fdcdac4f8b87d71d7d47a64e5
+      internalID: 66023154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_127
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 228
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a482f6f52b50c4bec8f6d7424a37115b
+      internalID: -1526131800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_128
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 228
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35751b0a1bd4e2d84309ef55365f75
+      internalID: 2093032198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_129
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 228
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1549643c37a92487483b2da5dafc2eab
+      internalID: 1049732807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_130
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 150
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273099df4fea74c5ba0fd32c785d3d7c
+      internalID: 226991662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_131
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 148
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27df715fc353c4a1ca48549d1f1903b0
+      internalID: 421330779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_132
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 148
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a4b33b78054352b196d4d071a4ed2
+      internalID: -319349756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_133
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 146
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf64dab4e9b2444808b67f5169a59962
+      internalID: 1670927924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_134
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 146
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38660be50e6e944ba95dd952bcc75638
+      internalID: 119150406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_135
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 144
+        width: 49
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025856fd96cee4387a8286373174a408
+      internalID: 203811833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_136
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 144
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883139d66ef264fa9b6e895a55e4aaad
+      internalID: 2118301206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_137
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 139
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172f922397612451cbd99308c677362f
+      internalID: 1318151236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_138
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 146
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e16647e591948f095e58db54b217fe
+      internalID: -958348527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_139
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 146
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e355c1ac15b740ceb783ec4c7ba2798
+      internalID: 457072903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_140
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 92
+        width: 128
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46878be37901b41b99e4deeeeda0608b
+      internalID: 1711233144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_141
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 68
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d394ab6ef764a43d285d66fb670bec71
+      internalID: 724407370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_142
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 80
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd23bbe7eb8f4e3db6e7afd923f6296
+      internalID: 1551792678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_143
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 72
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bedd8ef1dc94e57830fb604124c221
+      internalID: -1982883411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_144
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 70
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa29d4316245435886d2f0a9e5aeddd
+      internalID: 1945495051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_145
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 68
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6adc5f55cdc6440e8bab8c209471bc1
+      internalID: 975729968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_146
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 73
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065d78602fbff4f68933211c8dfbc42a
+      internalID: 1152492818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hollow_knight_147
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 66
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda8c5f1e3b52482a9bbbc3404923c7e
+      internalID: 1672985357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hollow_knight_0: 1199561681
+      hollow_knight_1: 859058489
+      hollow_knight_10: 241213611
+      hollow_knight_100: 224284698
+      hollow_knight_101: -1778870679
+      hollow_knight_102: -81956628
+      hollow_knight_103: -321785184
+      hollow_knight_104: 248068320
+      hollow_knight_105: 662325555
+      hollow_knight_106: -537198486
+      hollow_knight_107: 487478981
+      hollow_knight_108: 2064829562
+      hollow_knight_109: 1763822368
+      hollow_knight_11: 850800157
+      hollow_knight_110: -150602448
+      hollow_knight_111: 1033154026
+      hollow_knight_112: 280972650
+      hollow_knight_113: 1562082949
+      hollow_knight_114: 1146897072
+      hollow_knight_115: -1722244126
+      hollow_knight_116: -1158198155
+      hollow_knight_117: -1238251582
+      hollow_knight_118: -150481055
+      hollow_knight_119: 1803396169
+      hollow_knight_12: 1745008559
+      hollow_knight_120: -1524922457
+      hollow_knight_121: 1277954276
+      hollow_knight_122: -1492076538
+      hollow_knight_123: -1917756982
+      hollow_knight_124: 182930546
+      hollow_knight_125: 1940143637
+      hollow_knight_126: 66023154
+      hollow_knight_127: -1526131800
+      hollow_knight_128: 2093032198
+      hollow_knight_129: 1049732807
+      hollow_knight_13: 1273524163
+      hollow_knight_130: 226991662
+      hollow_knight_131: 421330779
+      hollow_knight_132: -319349756
+      hollow_knight_133: 1670927924
+      hollow_knight_134: 119150406
+      hollow_knight_135: 203811833
+      hollow_knight_136: 2118301206
+      hollow_knight_137: 1318151236
+      hollow_knight_138: -958348527
+      hollow_knight_139: 457072903
+      hollow_knight_14: 1981374084
+      hollow_knight_140: 1711233144
+      hollow_knight_141: 724407370
+      hollow_knight_142: 1551792678
+      hollow_knight_143: -1982883411
+      hollow_knight_144: 1945495051
+      hollow_knight_145: 975729968
+      hollow_knight_146: 1152492818
+      hollow_knight_147: 1672985357
+      hollow_knight_15: -996432673
+      hollow_knight_16: 1472874224
+      hollow_knight_17: 1856661752
+      hollow_knight_18: 447690218
+      hollow_knight_19: -356773398
+      hollow_knight_2: 574054721
+      hollow_knight_20: 2076594702
+      hollow_knight_21: 37416881
+      hollow_knight_22: -1316272489
+      hollow_knight_23: 1681020621
+      hollow_knight_24: -1464376529
+      hollow_knight_25: -498287637
+      hollow_knight_26: -80432583
+      hollow_knight_27: -1445599124
+      hollow_knight_28: -1090382919
+      hollow_knight_29: -625579660
+      hollow_knight_3: 241063069
+      hollow_knight_30: -260764577
+      hollow_knight_31: -801037423
+      hollow_knight_32: 963309459
+      hollow_knight_33: 1139400388
+      hollow_knight_34: -2020003762
+      hollow_knight_35: -568281990
+      hollow_knight_36: 628726816
+      hollow_knight_37: 1082079566
+      hollow_knight_38: -192397846
+      hollow_knight_39: 1244795138
+      hollow_knight_4: 1030372896
+      hollow_knight_40: -1645083673
+      hollow_knight_41: -733138250
+      hollow_knight_42: 1172472158
+      hollow_knight_43: -1380413710
+      hollow_knight_44: -1085180306
+      hollow_knight_45: 145030462
+      hollow_knight_46: 1243464987
+      hollow_knight_47: -887461240
+      hollow_knight_48: -528032215
+      hollow_knight_49: -927685495
+      hollow_knight_5: -195669251
+      hollow_knight_50: 473089747
+      hollow_knight_51: 627806346
+      hollow_knight_52: 1920725313
+      hollow_knight_53: 737704700
+      hollow_knight_54: -1242799039
+      hollow_knight_55: -1069014899
+      hollow_knight_56: 629387060
+      hollow_knight_57: -1134361214
+      hollow_knight_58: -569148935
+      hollow_knight_59: 294437947
+      hollow_knight_6: -2018045493
+      hollow_knight_60: -2079039616
+      hollow_knight_61: 1940133663
+      hollow_knight_62: -1847243972
+      hollow_knight_63: 24359814
+      hollow_knight_64: 481712669
+      hollow_knight_65: 1207550673
+      hollow_knight_66: 434822002
+      hollow_knight_67: 728123502
+      hollow_knight_68: -430155154
+      hollow_knight_69: -893671657
+      hollow_knight_7: 2098543062
+      hollow_knight_70: -2127539004
+      hollow_knight_71: 796445531
+      hollow_knight_72: -1100222245
+      hollow_knight_73: -178702321
+      hollow_knight_74: -437179113
+      hollow_knight_75: 545836692
+      hollow_knight_76: -418837657
+      hollow_knight_77: 194627444
+      hollow_knight_78: -1150960988
+      hollow_knight_79: 1234704917
+      hollow_knight_8: 625746931
+      hollow_knight_80: -853374812
+      hollow_knight_81: -1368636469
+      hollow_knight_82: 1589040874
+      hollow_knight_83: 290196279
+      hollow_knight_84: 1005543553
+      hollow_knight_85: -93037076
+      hollow_knight_86: 908727113
+      hollow_knight_87: 884623573
+      hollow_knight_88: -679184411
+      hollow_knight_89: -1681139229
+      hollow_knight_9: 1771253823
+      hollow_knight_90: 459540034
+      hollow_knight_91: 771345427
+      hollow_knight_92: 1668691193
+      hollow_knight_93: 228322055
+      hollow_knight_94: -1616539775
+      hollow_knight_95: -2066697334
+      hollow_knight_96: -1777080383
+      hollow_knight_97: -1245505254
+      hollow_knight_98: -1238611563
+      hollow_knight_99: 1020128984
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
